@@ -1,0 +1,23 @@
+{
+  "name": "hiteshbot",
+  "version": "1.0.0",
+  "description": "A chatbot powered by Google Gemini, using Node.js for the backend and Python for processing.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}

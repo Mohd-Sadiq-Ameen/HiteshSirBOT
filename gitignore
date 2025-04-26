@@ -1,0 +1,13 @@
+# Environment files (we don't want to share these)
+.env
+.env.local
+.env.production
+
+# Node.js dependencies (should never be committed)
+node_modules/
+
+# Python cache files (for Python projects)
+__pycache__/
+
+# Log files (optional but professional)
+*.log
